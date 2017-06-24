@@ -1,0 +1,19 @@
+{
+  "name": "PIB-Server",
+  "version": "1.0.0",
+  "description": "Server for the PIB (Plant in a Box project)",
+  "main": "index.js",
+  "repository": "https://github.com/PrincessMadMath/PIB-Server.git",
+  "author": "Mathieu <math.gamache@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
