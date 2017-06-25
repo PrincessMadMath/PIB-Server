@@ -1,21 +1,21 @@
 const model = require('../../DatabaseAccess').getModel()
 
-const collectionName = "box-logs"
+const collectionName = "box-infos"
 
 function getWelcome(){
-  return 'Welcome to box logs!'
+  return 'Welcome to box infos!'
 }
 
-function getLogs(){
+function getBoxsInfo(){
     return model.getCompleteCollection(collectionName);
 }
 
-function addLog(log){
+function addBoxInfo(log){
   return model.create(collectionName, log);
 }
 
 module.exports = {
   getWelcome,
-  getLogs,
-  addLog
+  getBoxsInfo,
+  addBoxInfo
 }

@@ -1,0 +1,29 @@
+[{
+    "boxId": 1,
+    "time": "2017-06-25T02:06:30+00:00",
+    "data": {
+      "box_temperature": 30
+    }
+  },
+  {
+    "boxId": 1,
+    "time": "2017-06-25T02:07:30+00:00",
+    "data": {
+      "box_temperature": 31
+    }
+  },
+  {
+    "boxId": 1,
+    "time": "2017-06-25T02:08:30+00:00",
+    "data": {
+      "box_temperature": 32
+    }
+  },
+  {
+    "boxId": 1,
+    "time": "2017-06-25T02:09:30+00:00",
+    "data": {
+      "box_temperature": 31
+    }
+  }
+]

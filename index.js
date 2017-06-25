@@ -1,13 +1,14 @@
 'use strict'
 
+require('dotenv').config()
 const express = require('express')
-
+var bodyParser = require('body-parser')
+const router = require('./Controllers')
 
 const app = express()
 
-
-const router = require('./Controllers')
-
+// parse application/json
+app.use(bodyParser.json())
 app.use(router);
 
 const PORT = process.env.PORT || 8081

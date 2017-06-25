@@ -1,5 +1,5 @@
 {
-  "name": "PIB-Server",
+  "name": "pib-server",
   "version": "1.0.0",
   "description": "Server for the PIB (Plant in a Box project)",
   "main": "index.js",
@@ -8,10 +8,14 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start:db": "mongod --dbpath F:\\Database\\PIB"
   },
   "dependencies": {
-    "express": "^4.15.3"
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

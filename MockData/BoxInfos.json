@@ -1,0 +1,14 @@
+[
+  {
+    "boxId": 1,
+    "sensors" : ["box_temperature", "box_humidity", "ground_temperature"],
+    "controllers" : ["heat_lamp", "grow_lamp"],
+    "status" : "connected"
+  },
+  {
+    "boxId": 2,
+    "sensors" : ["box_temperature", "ground_humidity"],
+    "controllers" : ["fan", "water_pump"],
+    "status" : "disconnected"
+  }
+]
